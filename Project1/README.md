@@ -22,9 +22,10 @@
     - To clone a repository use `git clone user@AWS_IP:home/user/repo_name.git`  
     - The AWS_IP can be the public IP or the `host` name from the .ssh config file to log in as that user  
     ![Git clone](gitClone.png)  
+      
     ![clonedRepo](clonedRepo.png)  
 2. Add, Commit, Push  
     - You can create a file and add for tracking with `git add`
-    - You can make a commit with the command `git commit -a` or `git commit -m "commit text here`
+    - You can make a commit with the command `git commit -a` or `git commit -m "commit text here"`
     - To push your changes use `git push`
     
