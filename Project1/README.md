@@ -14,8 +14,10 @@
     - The `host` will be the command you name it  
     - The `HostName` will be the public IP address of you AWS Instance  
     - The `user` will be whoever your trying to log in as  
-    - The `IdentityFile` will be the absolute path to your private key
+    - The `IdentityFile` will be the absolute path to your private key  
+
 4. Use `git init --bare repoName` to initialize a repo in your user  
+    ![git init](gitInit.png)
 
 ### Github commands  
 1. Cloning a repository  
@@ -23,7 +25,7 @@
     - The AWS_IP can be the public IP or the `host` name from the .ssh config file to log in as that user 
     ![clonedRepo](clonedRepo.png)  
 2. Add, Commit, Push  
-    - You can create a file and add for tracking with `git add`
-    - You can make a commit with the command `git commit -a` or `git commit -m "commit text here"`
-    - To push your changes use `git push`
+    - You can create a file and add it to github tracking with `git add`
+    - You can make a commit with the command `git commit -a` or `git commit -m "commit text here"`, this is a way to document any changes made to certain files
+    - To push your changes use `git push` and the repository will be updated with the changes you've made
     
