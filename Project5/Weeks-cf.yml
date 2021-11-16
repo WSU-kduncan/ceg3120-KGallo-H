@@ -186,7 +186,7 @@ Resources:
           !Sub |
             #!/bin/bash -xe
             sudo apt-get update &&  \
-            sudo apt-get install -y nginx && \
+            sudo apt-get install -y apache2 && \
             sudo apt-get install -y git && \
             sudo hostnamectl set-hostname WebServ1 && \
             reboot
@@ -221,7 +221,7 @@ Resources:
           !Sub |
             #!/bin/bash -xe
             apt-get update &&  \
-            sudo apt-get install -y nginx &&  \
+            sudo apt-get install -y apache2 &&  \
             apt-get install -y git &&  \
             sudo hostnamectl set-hostname WebServ2 && \
             reboot
